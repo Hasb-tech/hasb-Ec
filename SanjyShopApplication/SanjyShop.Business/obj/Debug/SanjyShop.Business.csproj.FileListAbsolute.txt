@@ -1,0 +1,198 @@
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.Business\bin\Debug\SanjyShop.Business.dll.config
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.Business\bin\Debug\SanjyShop.Business.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.Business\bin\Debug\SanjyShop.Business.pdb
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.Business\bin\Debug\EntityFramework.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.Business\bin\Debug\EntityFramework.SqlServer.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.Business\bin\Debug\SanjyShop.Data.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.Business\bin\Debug\SanjyShops.Business_Models.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.Business\bin\Debug\System.Web.Mvc.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.Business\bin\Debug\System.Web.WebPages.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.Business\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.Business\bin\Debug\System.Web.Razor.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.Business\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.Business\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.Business\bin\Debug\SanjyShop.Data.pdb
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.Business\bin\Debug\SanjyShop.Data.dll.config
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.Business\bin\Debug\SanjyShops.Business_Models.pdb
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.Business\bin\Debug\SanjyShops.Business_Models.dll.config
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.Business\bin\Debug\EntityFramework.xml
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.Business\bin\Debug\EntityFramework.SqlServer.xml
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.Business\bin\Debug\System.Web.Mvc.xml
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.Business\bin\Debug\System.Web.WebPages.xml
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.Business\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.Business\bin\Debug\System.Web.Razor.xml
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.Business\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.Business\obj\Debug\SanjyShop.Business.csprojAssemblyReference.cache
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.Business\obj\Debug\SanjyShop.Business.Common.ApplicationResources.resources
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.Business\obj\Debug\SanjyShop.Business.csproj.GenerateResource.cache
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.Business\obj\Debug\SanjyShop.Business.csproj.CoreCompileInputs.cache
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.Business\obj\Debug\SanjyShop.Business.csproj.CopyComplete
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.Business\obj\Debug\SanjyShop.Business.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.Business\obj\Debug\SanjyShop.Business.pdb
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.Business\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.Business\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.Business\bin\Debug\Microsoft.Owin.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.Business\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.Business\bin\Debug\Owin.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.Business\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.Business\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.Business\bin\Debug\Microsoft.Owin.xml
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.Business\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\SanjyShop.Business.dll.config
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\SanjyShop.Business.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\SanjyShop.Business.pdb
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\EntityFramework.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\EntityFramework.SqlServer.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\Microsoft.Owin.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\Owin.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\SanjyShop.Data.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\SanjyShops.Business_Models.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\System.Web.Mvc.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\System.Web.WebPages.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\System.Web.WebPages.Razor.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\System.Web.Razor.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\Microsoft.Web.Infrastructure.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\System.Web.WebPages.Deployment.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\SanjyShop.Data.pdb
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\SanjyShop.Data.dll.config
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\SanjyShops.Business_Models.pdb
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\SanjyShops.Business_Models.dll.config
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\EntityFramework.xml
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\EntityFramework.SqlServer.xml
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\Microsoft.Owin.xml
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\System.Web.Mvc.xml
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\System.Web.WebPages.xml
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\System.Web.WebPages.Razor.xml
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\System.Web.Razor.xml
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\System.Web.WebPages.Deployment.xml
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\obj\Debug\SanjyShop.Business.csprojAssemblyReference.cache
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\obj\Debug\SanjyShop.Business.Common.ApplicationResources.resources
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\obj\Debug\SanjyShop.Business.csproj.GenerateResource.cache
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\obj\Debug\SanjyShop.Business.csproj.CoreCompileInputs.cache
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\obj\Debug\SanjyShop.Business.csproj.CopyComplete
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\obj\Debug\SanjyShop.Business.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\obj\Debug\SanjyShop.Business.pdb
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\SanjyShop.Business.dll.config
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\SanjyShop.Business.dll
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\SanjyShop.Business.pdb
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\EntityFramework.dll
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\EntityFramework.SqlServer.dll
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\Microsoft.Owin.dll
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\Owin.dll
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\SanjyShop.Data.dll
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\SanjyShops.Business_Models.dll
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\System.Web.Mvc.dll
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\System.Web.WebPages.dll
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\System.Web.Razor.dll
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\SanjyShop.Data.pdb
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\SanjyShop.Data.dll.config
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\SanjyShops.Business_Models.pdb
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\SanjyShops.Business_Models.dll.config
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\EntityFramework.xml
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\EntityFramework.SqlServer.xml
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\Microsoft.Owin.xml
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\System.Web.Mvc.xml
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\System.Web.WebPages.xml
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\System.Web.Razor.xml
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\obj\Debug\SanjyShop.Business.csprojAssemblyReference.cache
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\obj\Debug\SanjyShop.Business.Common.ApplicationResources.resources
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\obj\Debug\SanjyShop.Business.csproj.GenerateResource.cache
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\obj\Debug\SanjyShop.Business.csproj.CoreCompileInputs.cache
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\obj\Debug\SanjyShop.Business.csproj.CopyComplete
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\obj\Debug\SanjyShop.Business.dll
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\obj\Debug\SanjyShop.Business.pdb
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\obj\Debug\SanjyShop.Business.csprojAssemblyReference.cache
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\obj\Debug\SanjyShop.Business.Common.ApplicationResources.resources
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\obj\Debug\SanjyShop.Business.csproj.GenerateResource.cache
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\obj\Debug\SanjyShop.Business.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\SanjyShop.Business.dll.config
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\SanjyShop.Business.dll
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\SanjyShop.Business.pdb
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\EntityFramework.dll
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\Microsoft.Owin.dll
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\Owin.dll
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\SanjyShop.Data.dll
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\SanjyShops.Business_Models.dll
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\System.Web.Mvc.dll
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\System.Web.WebPages.dll
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\System.Web.Razor.dll
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\SanjyShop.Data.pdb
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\SanjyShop.Data.dll.config
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\SanjyShops.Business_Models.pdb
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\SanjyShops.Business_Models.dll.config
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\EntityFramework.xml
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\Microsoft.Owin.xml
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\System.Web.Mvc.xml
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\System.Web.WebPages.xml
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\System.Web.Razor.xml
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\obj\Debug\SanjyShop.Business.csproj.CopyComplete
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\obj\Debug\SanjyShop.Business.dll
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.Business\obj\Debug\SanjyShop.Business.pdb
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.Business\bin\Debug\SanjyShop.Business.dll.config
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.Business\bin\Debug\SanjyShop.Business.dll
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.Business\bin\Debug\SanjyShop.Business.pdb
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.Business\bin\Debug\EntityFramework.dll
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.Business\bin\Debug\EntityFramework.SqlServer.dll
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.Business\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.Business\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.Business\bin\Debug\Microsoft.Owin.dll
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.Business\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.Business\bin\Debug\Owin.dll
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.Business\bin\Debug\SanjyShop.Data.dll
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.Business\bin\Debug\SanjyShops.Business_Models.dll
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.Business\bin\Debug\System.Web.WebPages.dll
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.Business\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.Business\bin\Debug\System.Web.Razor.dll
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.Business\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.Business\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.Business\bin\Debug\SanjyShop.Data.pdb
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.Business\bin\Debug\SanjyShop.Data.dll.config
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.Business\bin\Debug\SanjyShops.Business_Models.pdb
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.Business\bin\Debug\SanjyShops.Business_Models.dll.config
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.Business\bin\Debug\EntityFramework.xml
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.Business\bin\Debug\EntityFramework.SqlServer.xml
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.Business\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.Business\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.Business\bin\Debug\Microsoft.Owin.xml
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.Business\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.Business\bin\Debug\System.Web.WebPages.xml
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.Business\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.Business\bin\Debug\System.Web.Razor.xml
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.Business\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.Business\obj\Debug\SanjyShop.Business.csprojAssemblyReference.cache
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.Business\obj\Debug\SanjyShop.Business.Common.ApplicationResources.resources
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.Business\obj\Debug\SanjyShop.Business.csproj.GenerateResource.cache
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.Business\obj\Debug\SanjyShop.Business.csproj.CoreCompileInputs.cache
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.Business\obj\Debug\SanjyShop.Business.csproj.CopyComplete
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.Business\obj\Debug\SanjyShop.Business.dll
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.Business\obj\Debug\SanjyShop.Business.pdb

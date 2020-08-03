@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SanjyShopDatabaseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="AGENT_DETAILS">
+    <Key>
+      <PropertyRef Name="Agent_Id" />
+    </Key>
+    <Property Name="Agent_Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Agent_Name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Country_Name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="State_Name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="City_Name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Location_Name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Agency_Name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Licence_Number" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Address" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Pincode" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Phonenumber" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Password" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="SANJY_SHOP_REGISTRATION" Relationship="SanjyShopDatabaseModel.FK__SANJY_SHO__Agent__4CA06362" FromRole="AGENT_DETAILS" ToRole="SANJY_SHOP_REGISTRATION" />
+  </EntityType>
+  <EntityType Name="BANK_NAMES">
+    <Key>
+      <PropertyRef Name="Bank_Id" />
+    </Key>
+    <Property Name="Bank_Id" Type="Int32" Nullable="false" />
+    <Property Name="Bank_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ID_PROOF_TYPES">
+    <Key>
+      <PropertyRef Name="Id_proof_Id" />
+    </Key>
+    <Property Name="Id_proof_Id" Type="Int32" Nullable="false" />
+    <Property Name="Id_proof_Type" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="SANJY_SHOP_REGISTRATION" Relationship="SanjyShopDatabaseModel.FK__SANJY_SHO__Id_Pr__4D94879B" FromRole="ID_PROOF_TYPES" ToRole="SANJY_SHOP_REGISTRATION" />
+  </EntityType>
+  <EntityType Name="SHOP_TYPES">
+    <Key>
+      <PropertyRef Name="Shop_Type_Id" />
+    </Key>
+    <Property Name="Shop_Type_Id" Type="Int32" Nullable="false" />
+    <Property Name="Shop_Type" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="SANJY_SHOP_REGISTRATION" Relationship="SanjyShopDatabaseModel.FK__SANJY_SHO__Shop___4E88ABD4" FromRole="SHOP_TYPES" ToRole="SANJY_SHOP_REGISTRATION" />
+  </EntityType>
+  <EntityContainer Name="SanjyShopDatabase" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="AGENT_DETAILS" EntityType="Self.AGENT_DETAILS" />
+    <EntitySet Name="BANK_NAMES" EntityType="Self.BANK_NAMES" />
+    <EntitySet Name="ID_PROOF_TYPES" EntityType="Self.ID_PROOF_TYPES" />
+    <EntitySet Name="SHOP_TYPES" EntityType="Self.SHOP_TYPES" />
+    <EntitySet Name="SANJY_SHOP_REGISTRATION" EntityType="SanjyShopDatabaseModel.SANJY_SHOP_REGISTRATION" />
+    <AssociationSet Name="FK__SANJY_SHO__Agent__4CA06362" Association="SanjyShopDatabaseModel.FK__SANJY_SHO__Agent__4CA06362">
+      <End Role="AGENT_DETAILS" EntitySet="AGENT_DETAILS" />
+      <End Role="SANJY_SHOP_REGISTRATION" EntitySet="SANJY_SHOP_REGISTRATION" />
+    </AssociationSet>
+    <AssociationSet Name="FK__SANJY_SHO__Id_Pr__4D94879B" Association="SanjyShopDatabaseModel.FK__SANJY_SHO__Id_Pr__4D94879B">
+      <End Role="ID_PROOF_TYPES" EntitySet="ID_PROOF_TYPES" />
+      <End Role="SANJY_SHOP_REGISTRATION" EntitySet="SANJY_SHOP_REGISTRATION" />
+    </AssociationSet>
+    <AssociationSet Name="FK__SANJY_SHO__Shop___4E88ABD4" Association="SanjyShopDatabaseModel.FK__SANJY_SHO__Shop___4E88ABD4">
+      <End Role="SHOP_TYPES" EntitySet="SHOP_TYPES" />
+      <End Role="SANJY_SHOP_REGISTRATION" EntitySet="SANJY_SHOP_REGISTRATION" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="SANJY_SHOP_REGISTRATION">
+    <Key>
+      <PropertyRef Name="Shop_Id" />
+    </Key>
+    <Property Name="Shop_Id" Type="Int64" Nullable="false" />
+    <Property Name="Is_Refferal" Type="Boolean" />
+    <Property Name="Agent_Id" Type="Int64" />
+    <Property Name="Shop_Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Owner_Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Phone_Number" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Password" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="GST_Number" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FSSAI_Number" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Address" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="pincode" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Is_Phone_Number_Verified" Type="Boolean" Nullable="false" />
+    <Property Name="Shop_Type_Id" Type="Int32" Nullable="false" />
+    <Property Name="Bank_Account_Number" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="IFSC_Code" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Bank_Name" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="PAN_Number" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="FSSAI" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Id_Proof_Type_Id" Type="Int32" Nullable="false" />
+    <Property Name="Id_Proof" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="PAN_Card" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Passbook_Bank_Statement" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="AGENT_DETAILS" Relationship="SanjyShopDatabaseModel.FK__SANJY_SHO__Agent__4CA06362" FromRole="SANJY_SHOP_REGISTRATION" ToRole="AGENT_DETAILS" />
+    <NavigationProperty Name="ID_PROOF_TYPES" Relationship="SanjyShopDatabaseModel.FK__SANJY_SHO__Id_Pr__4D94879B" FromRole="SANJY_SHOP_REGISTRATION" ToRole="ID_PROOF_TYPES" />
+    <NavigationProperty Name="SHOP_TYPES" Relationship="SanjyShopDatabaseModel.FK__SANJY_SHO__Shop___4E88ABD4" FromRole="SANJY_SHOP_REGISTRATION" ToRole="SHOP_TYPES" />
+  </EntityType>
+  <Association Name="FK__SANJY_SHO__Agent__4CA06362">
+    <End Type="SanjyShopDatabaseModel.AGENT_DETAILS" Role="AGENT_DETAILS" Multiplicity="0..1" />
+    <End Type="SanjyShopDatabaseModel.SANJY_SHOP_REGISTRATION" Role="SANJY_SHOP_REGISTRATION" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AGENT_DETAILS">
+        <PropertyRef Name="Agent_Id" />
+      </Principal>
+      <Dependent Role="SANJY_SHOP_REGISTRATION">
+        <PropertyRef Name="Agent_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__SANJY_SHO__Id_Pr__4D94879B">
+    <End Type="SanjyShopDatabaseModel.ID_PROOF_TYPES" Role="ID_PROOF_TYPES" Multiplicity="1" />
+    <End Type="SanjyShopDatabaseModel.SANJY_SHOP_REGISTRATION" Role="SANJY_SHOP_REGISTRATION" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ID_PROOF_TYPES">
+        <PropertyRef Name="Id_proof_Id" />
+      </Principal>
+      <Dependent Role="SANJY_SHOP_REGISTRATION">
+        <PropertyRef Name="Id_Proof_Type_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__SANJY_SHO__Shop___4E88ABD4">
+    <End Type="SanjyShopDatabaseModel.SHOP_TYPES" Role="SHOP_TYPES" Multiplicity="1" />
+    <End Type="SanjyShopDatabaseModel.SANJY_SHOP_REGISTRATION" Role="SANJY_SHOP_REGISTRATION" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SHOP_TYPES">
+        <PropertyRef Name="Shop_Type_Id" />
+      </Principal>
+      <Dependent Role="SANJY_SHOP_REGISTRATION">
+        <PropertyRef Name="Shop_Type_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

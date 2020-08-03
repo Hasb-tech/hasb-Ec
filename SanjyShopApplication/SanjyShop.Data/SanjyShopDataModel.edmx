@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="SanjyShopDatabaseModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="AGENT_DETAILS">
+          <Key>
+            <PropertyRef Name="Agent_Id" />
+          </Key>
+          <Property Name="Agent_Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Agent_Name" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="Country_Name" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="State_Name" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="City_Name" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="Location_Name" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="Agency_Name" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="Licence_Number" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="Address" Type="varchar" MaxLength="150" Nullable="false" />
+          <Property Name="Pincode" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Phonenumber" Type="varchar" MaxLength="50" />
+          <Property Name="Password" Type="varchar" MaxLength="100" Nullable="false" />
+        </EntityType>
+        <EntityType Name="BANK_NAMES">
+          <Key>
+            <PropertyRef Name="Bank_Id" />
+          </Key>
+          <Property Name="Bank_Id" Type="int" Nullable="false" />
+          <Property Name="Bank_Name" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="COUNTRY_CODES">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="Country_Code" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ID_PROOF_TYPES">
+          <Key>
+            <PropertyRef Name="Id_proof_Id" />
+          </Key>
+          <Property Name="Id_proof_Id" Type="int" Nullable="false" />
+          <Property Name="Id_proof_Type" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="SANJY_SHOP_REGISTRATION">
+          <Key>
+            <PropertyRef Name="Shop_Id" />
+          </Key>
+          <Property Name="Shop_Id" Type="bigint" Nullable="false" />
+          <Property Name="Is_Refferal" Type="bit" />
+          <Property Name="Agent_Id" Type="bigint" />
+          <Property Name="Shop_Name" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Owner_Name" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Phone_Number" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="Email" Type="varchar" MaxLength="50" />
+          <Property Name="Password" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="GST_Number" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="FSSAI_Number" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Address" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="pincode" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Is_Phone_Number_Verified" Type="bit" Nullable="false" />
+          <Property Name="Shop_Type_Id" Type="int" Nullable="false" />
+          <Property Name="Bank_Account_Number" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="IFSC_Code" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="Bank_Name" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="PAN_Number" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="FSSAI" Type="varchar(max)" Nullable="false" />
+          <Property Name="Id_Proof_Type_Id" Type="int" Nullable="false" />
+          <Property Name="Id_Proof_Front" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Id_Proof_Back" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="PAN_Card" Type="varchar(max)" Nullable="false" />
+          <Property Name="Passbook_Bank_Statement" Type="varchar(max)" Nullable="false" />
+          <Property Name="Phone_Number_Country_Code_Id" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="SHOP_TYPES">
+          <Key>
+            <PropertyRef Name="Shop_Type_Id" />
+          </Key>
+          <Property Name="Shop_Type_Id" Type="int" Nullable="false" />
+          <Property Name="Shop_Type" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <Association Name="FK__SANJY_SHO__Agent__0B91BA14">
+          <End Role="AGENT_DETAILS" Type="Self.AGENT_DETAILS" Multiplicity="0..1" />
+          <End Role="SANJY_SHOP_REGISTRATION" Type="Self.SANJY_SHOP_REGISTRATION" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AGENT_DETAILS">
+              <PropertyRef Name="Agent_Id" />
+            </Principal>
+            <Dependent Role="SANJY_SHOP_REGISTRATION">
+              <PropertyRef Name="Agent_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__SANJY_SHO__Id_Pr__0C85DE4D">
+          <End Role="ID_PROOF_TYPES" Type="Self.ID_PROOF_TYPES" Multiplicity="1" />
+          <End Role="SANJY_SHOP_REGISTRATION" Type="Self.SANJY_SHOP_REGISTRATION" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ID_PROOF_TYPES">
+              <PropertyRef Name="Id_proof_Id" />
+            </Principal>
+            <Dependent Role="SANJY_SHOP_REGISTRATION">
+              <PropertyRef Name="Id_Proof_Type_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__SANJY_SHO__Phone__0E6E26BF">
+          <End Role="COUNTRY_CODES" Type="Self.COUNTRY_CODES" Multiplicity="1" />
+          <End Role="SANJY_SHOP_REGISTRATION" Type="Self.SANJY_SHOP_REGISTRATION" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="COUNTRY_CODES">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="SANJY_SHOP_REGISTRATION">
+              <PropertyRef Name="Phone_Number_Country_Code_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__SANJY_SHO__Shop___0D7A0286">
+          <End Role="SHOP_TYPES" Type="Self.SHOP_TYPES" Multiplicity="1" />
+          <End Role="SANJY_SHOP_REGISTRATION" Type="Self.SANJY_SHOP_REGISTRATION" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SHOP_TYPES">
+              <PropertyRef Name="Shop_Type_Id" />
+            </Principal>
+            <Dependent Role="SANJY_SHOP_REGISTRATION">
+              <PropertyRef Name="Shop_Type_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="SanjyShopDatabaseModelStoreContainer">
+          <EntitySet Name="AGENT_DETAILS" EntityType="Self.AGENT_DETAILS" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="BANK_NAMES" EntityType="Self.BANK_NAMES" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="COUNTRY_CODES" EntityType="Self.COUNTRY_CODES" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ID_PROOF_TYPES" EntityType="Self.ID_PROOF_TYPES" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="SANJY_SHOP_REGISTRATION" EntityType="Self.SANJY_SHOP_REGISTRATION" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="SHOP_TYPES" EntityType="Self.SHOP_TYPES" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__SANJY_SHO__Agent__0B91BA14" Association="Self.FK__SANJY_SHO__Agent__0B91BA14">
+            <End Role="AGENT_DETAILS" EntitySet="AGENT_DETAILS" />
+            <End Role="SANJY_SHOP_REGISTRATION" EntitySet="SANJY_SHOP_REGISTRATION" />
+          </AssociationSet>
+          <AssociationSet Name="FK__SANJY_SHO__Id_Pr__0C85DE4D" Association="Self.FK__SANJY_SHO__Id_Pr__0C85DE4D">
+            <End Role="ID_PROOF_TYPES" EntitySet="ID_PROOF_TYPES" />
+            <End Role="SANJY_SHOP_REGISTRATION" EntitySet="SANJY_SHOP_REGISTRATION" />
+          </AssociationSet>
+          <AssociationSet Name="FK__SANJY_SHO__Phone__0E6E26BF" Association="Self.FK__SANJY_SHO__Phone__0E6E26BF">
+            <End Role="COUNTRY_CODES" EntitySet="COUNTRY_CODES" />
+            <End Role="SANJY_SHOP_REGISTRATION" EntitySet="SANJY_SHOP_REGISTRATION" />
+          </AssociationSet>
+          <AssociationSet Name="FK__SANJY_SHO__Shop___0D7A0286" Association="Self.FK__SANJY_SHO__Shop___0D7A0286">
+            <End Role="SHOP_TYPES" EntitySet="SHOP_TYPES" />
+            <End Role="SANJY_SHOP_REGISTRATION" EntitySet="SANJY_SHOP_REGISTRATION" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="SanjyShopDatabaseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="AGENT_DETAILS">
+          <Key>
+            <PropertyRef Name="Agent_Id" />
+          </Key>
+          <Property Name="Agent_Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Agent_Name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Country_Name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="State_Name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="City_Name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Location_Name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Agency_Name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Licence_Number" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Address" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Pincode" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Phonenumber" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Password" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="SANJY_SHOP_REGISTRATION" Relationship="SanjyShopDatabaseModel.FK__SANJY_SHO__Agent__0B91BA14" FromRole="AGENT_DETAILS" ToRole="SANJY_SHOP_REGISTRATION" />
+        </EntityType>
+        <EntityType Name="BANK_NAMES">
+          <Key>
+            <PropertyRef Name="Bank_Id" />
+          </Key>
+          <Property Name="Bank_Id" Type="Int32" Nullable="false" />
+          <Property Name="Bank_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ID_PROOF_TYPES">
+          <Key>
+            <PropertyRef Name="Id_proof_Id" />
+          </Key>
+          <Property Name="Id_proof_Id" Type="Int32" Nullable="false" />
+          <Property Name="Id_proof_Type" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="SANJY_SHOP_REGISTRATION" Relationship="SanjyShopDatabaseModel.FK__SANJY_SHO__Id_Pr__0C85DE4D" FromRole="ID_PROOF_TYPES" ToRole="SANJY_SHOP_REGISTRATION" />
+        </EntityType>
+        <EntityType Name="SHOP_TYPES">
+          <Key>
+            <PropertyRef Name="Shop_Type_Id" />
+          </Key>
+          <Property Name="Shop_Type_Id" Type="Int32" Nullable="false" />
+          <Property Name="Shop_Type" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="SANJY_SHOP_REGISTRATION" Relationship="SanjyShopDatabaseModel.FK__SANJY_SHO__Shop___0D7A0286" FromRole="SHOP_TYPES" ToRole="SANJY_SHOP_REGISTRATION" />
+        </EntityType>
+        <EntityContainer Name="SanjyShopDatabase" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="AGENT_DETAILS" EntityType="Self.AGENT_DETAILS" />
+          <EntitySet Name="BANK_NAMES" EntityType="Self.BANK_NAMES" />
+          <EntitySet Name="ID_PROOF_TYPES" EntityType="Self.ID_PROOF_TYPES" />
+          <EntitySet Name="SHOP_TYPES" EntityType="Self.SHOP_TYPES" />
+          <EntitySet Name="SANJY_SHOP_REGISTRATION" EntityType="SanjyShopDatabaseModel.SANJY_SHOP_REGISTRATION" />
+          <AssociationSet Name="FK__SANJY_SHO__Agent__0B91BA14" Association="SanjyShopDatabaseModel.FK__SANJY_SHO__Agent__0B91BA14">
+            <End Role="AGENT_DETAILS" EntitySet="AGENT_DETAILS" />
+            <End Role="SANJY_SHOP_REGISTRATION" EntitySet="SANJY_SHOP_REGISTRATION" />
+          </AssociationSet>
+          <AssociationSet Name="FK__SANJY_SHO__Id_Pr__0C85DE4D" Association="SanjyShopDatabaseModel.FK__SANJY_SHO__Id_Pr__0C85DE4D">
+            <End Role="ID_PROOF_TYPES" EntitySet="ID_PROOF_TYPES" />
+            <End Role="SANJY_SHOP_REGISTRATION" EntitySet="SANJY_SHOP_REGISTRATION" />
+          </AssociationSet>
+          <AssociationSet Name="FK__SANJY_SHO__Shop___0D7A0286" Association="SanjyShopDatabaseModel.FK__SANJY_SHO__Shop___0D7A0286">
+            <End Role="SHOP_TYPES" EntitySet="SHOP_TYPES" />
+            <End Role="SANJY_SHOP_REGISTRATION" EntitySet="SANJY_SHOP_REGISTRATION" />
+          </AssociationSet>
+          <EntitySet Name="COUNTRY_CODES" EntityType="SanjyShopDatabaseModel.COUNTRY_CODES" />
+          <AssociationSet Name="FK__SANJY_SHO__Phone__0E6E26BF" Association="SanjyShopDatabaseModel.FK__SANJY_SHO__Phone__0E6E26BF">
+            <End Role="COUNTRY_CODES" EntitySet="COUNTRY_CODES" />
+            <End Role="SANJY_SHOP_REGISTRATION" EntitySet="SANJY_SHOP_REGISTRATION" />
+          </AssociationSet>
+          </EntityContainer>
+        <EntityType Name="SANJY_SHOP_REGISTRATION">
+          <Key>
+            <PropertyRef Name="Shop_Id" />
+          </Key>
+          <Property Name="Shop_Id" Type="Int64" Nullable="false" />
+          <Property Name="Is_Refferal" Type="Boolean" />
+          <Property Name="Agent_Id" Type="Int64" />
+          <Property Name="Shop_Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Owner_Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Phone_Number" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Password" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="GST_Number" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="FSSAI_Number" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Address" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="pincode" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Is_Phone_Number_Verified" Type="Boolean" Nullable="false" />
+          <Property Name="Shop_Type_Id" Type="Int32" Nullable="false" />
+          <Property Name="Bank_Account_Number" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="IFSC_Code" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="Bank_Name" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="PAN_Number" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="FSSAI" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="Id_Proof_Type_Id" Type="Int32" Nullable="false" />
+          <Property Name="Id_Proof_Front" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Id_Proof_Back" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="PAN_Card" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="Passbook_Bank_Statement" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="Phone_Number_Country_Code_Id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="AGENT_DETAILS" Relationship="SanjyShopDatabaseModel.FK__SANJY_SHO__Agent__0B91BA14" FromRole="SANJY_SHOP_REGISTRATION" ToRole="AGENT_DETAILS" />
+          <NavigationProperty Name="ID_PROOF_TYPES" Relationship="SanjyShopDatabaseModel.FK__SANJY_SHO__Id_Pr__0C85DE4D" FromRole="SANJY_SHOP_REGISTRATION" ToRole="ID_PROOF_TYPES" />
+          <NavigationProperty Name="SHOP_TYPES" Relationship="SanjyShopDatabaseModel.FK__SANJY_SHO__Shop___0D7A0286" FromRole="SANJY_SHOP_REGISTRATION" ToRole="SHOP_TYPES" />
+          <NavigationProperty Name="COUNTRY_CODES" Relationship="SanjyShopDatabaseModel.FK__SANJY_SHO__Phone__0E6E26BF" FromRole="SANJY_SHOP_REGISTRATION" ToRole="COUNTRY_CODES" />
+        </EntityType>
+        <Association Name="FK__SANJY_SHO__Agent__0B91BA14">
+          <End Type="SanjyShopDatabaseModel.AGENT_DETAILS" Role="AGENT_DETAILS" Multiplicity="0..1" />
+          <End Type="SanjyShopDatabaseModel.SANJY_SHOP_REGISTRATION" Role="SANJY_SHOP_REGISTRATION" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AGENT_DETAILS">
+              <PropertyRef Name="Agent_Id" />
+            </Principal>
+            <Dependent Role="SANJY_SHOP_REGISTRATION">
+              <PropertyRef Name="Agent_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__SANJY_SHO__Id_Pr__0C85DE4D">
+          <End Type="SanjyShopDatabaseModel.ID_PROOF_TYPES" Role="ID_PROOF_TYPES" Multiplicity="1" />
+          <End Type="SanjyShopDatabaseModel.SANJY_SHOP_REGISTRATION" Role="SANJY_SHOP_REGISTRATION" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ID_PROOF_TYPES">
+              <PropertyRef Name="Id_proof_Id" />
+            </Principal>
+            <Dependent Role="SANJY_SHOP_REGISTRATION">
+              <PropertyRef Name="Id_Proof_Type_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__SANJY_SHO__Shop___0D7A0286">
+          <End Type="SanjyShopDatabaseModel.SHOP_TYPES" Role="SHOP_TYPES" Multiplicity="1" />
+          <End Type="SanjyShopDatabaseModel.SANJY_SHOP_REGISTRATION" Role="SANJY_SHOP_REGISTRATION" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SHOP_TYPES">
+              <PropertyRef Name="Shop_Type_Id" />
+            </Principal>
+            <Dependent Role="SANJY_SHOP_REGISTRATION">
+              <PropertyRef Name="Shop_Type_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="COUNTRY_CODES">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="Country_Code" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="SANJY_SHOP_REGISTRATION" Relationship="SanjyShopDatabaseModel.FK__SANJY_SHO__Phone__0E6E26BF" FromRole="COUNTRY_CODES" ToRole="SANJY_SHOP_REGISTRATION" />
+        </EntityType>
+        <Association Name="FK__SANJY_SHO__Phone__0E6E26BF">
+          <End Type="SanjyShopDatabaseModel.COUNTRY_CODES" Role="COUNTRY_CODES" Multiplicity="1" />
+          <End Type="SanjyShopDatabaseModel.SANJY_SHOP_REGISTRATION" Role="SANJY_SHOP_REGISTRATION" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="COUNTRY_CODES">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="SANJY_SHOP_REGISTRATION">
+              <PropertyRef Name="Phone_Number_Country_Code_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="SanjyShopDatabaseModelStoreContainer" CdmEntityContainer="SanjyShopDatabase">
+          <EntitySetMapping Name="AGENT_DETAILS">
+            <EntityTypeMapping TypeName="SanjyShopDatabaseModel.AGENT_DETAILS">
+              <MappingFragment StoreEntitySet="AGENT_DETAILS">
+                <ScalarProperty Name="Agent_Id" ColumnName="Agent_Id" />
+                <ScalarProperty Name="Agent_Name" ColumnName="Agent_Name" />
+                <ScalarProperty Name="Country_Name" ColumnName="Country_Name" />
+                <ScalarProperty Name="State_Name" ColumnName="State_Name" />
+                <ScalarProperty Name="City_Name" ColumnName="City_Name" />
+                <ScalarProperty Name="Location_Name" ColumnName="Location_Name" />
+                <ScalarProperty Name="Agency_Name" ColumnName="Agency_Name" />
+                <ScalarProperty Name="Licence_Number" ColumnName="Licence_Number" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="Pincode" ColumnName="Pincode" />
+                <ScalarProperty Name="Phonenumber" ColumnName="Phonenumber" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="BANK_NAMES">
+            <EntityTypeMapping TypeName="SanjyShopDatabaseModel.BANK_NAMES">
+              <MappingFragment StoreEntitySet="BANK_NAMES">
+                <ScalarProperty Name="Bank_Id" ColumnName="Bank_Id" />
+                <ScalarProperty Name="Bank_Name" ColumnName="Bank_Name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ID_PROOF_TYPES">
+            <EntityTypeMapping TypeName="SanjyShopDatabaseModel.ID_PROOF_TYPES">
+              <MappingFragment StoreEntitySet="ID_PROOF_TYPES">
+                <ScalarProperty Name="Id_proof_Id" ColumnName="Id_proof_Id" />
+                <ScalarProperty Name="Id_proof_Type" ColumnName="Id_proof_Type" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SHOP_TYPES">
+            <EntityTypeMapping TypeName="SanjyShopDatabaseModel.SHOP_TYPES">
+              <MappingFragment StoreEntitySet="SHOP_TYPES">
+                <ScalarProperty Name="Shop_Type_Id" ColumnName="Shop_Type_Id" />
+                <ScalarProperty Name="Shop_Type" ColumnName="Shop_Type" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SANJY_SHOP_REGISTRATION">
+            <EntityTypeMapping TypeName="SanjyShopDatabaseModel.SANJY_SHOP_REGISTRATION">
+              <MappingFragment StoreEntitySet="SANJY_SHOP_REGISTRATION">
+                <ScalarProperty Name="Phone_Number_Country_Code_Id" ColumnName="Phone_Number_Country_Code_Id" />
+                <ScalarProperty Name="Passbook_Bank_Statement" ColumnName="Passbook_Bank_Statement" />
+                <ScalarProperty Name="PAN_Card" ColumnName="PAN_Card" />
+                <ScalarProperty Name="Id_Proof_Back" ColumnName="Id_Proof_Back" />
+                <ScalarProperty Name="Id_Proof_Front" ColumnName="Id_Proof_Front" />
+                <ScalarProperty Name="Id_Proof_Type_Id" ColumnName="Id_Proof_Type_Id" />
+                <ScalarProperty Name="FSSAI" ColumnName="FSSAI" />
+                <ScalarProperty Name="PAN_Number" ColumnName="PAN_Number" />
+                <ScalarProperty Name="Bank_Name" ColumnName="Bank_Name" />
+                <ScalarProperty Name="IFSC_Code" ColumnName="IFSC_Code" />
+                <ScalarProperty Name="Bank_Account_Number" ColumnName="Bank_Account_Number" />
+                <ScalarProperty Name="Shop_Type_Id" ColumnName="Shop_Type_Id" />
+                <ScalarProperty Name="Is_Phone_Number_Verified" ColumnName="Is_Phone_Number_Verified" />
+                <ScalarProperty Name="pincode" ColumnName="pincode" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="FSSAI_Number" ColumnName="FSSAI_Number" />
+                <ScalarProperty Name="GST_Number" ColumnName="GST_Number" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Phone_Number" ColumnName="Phone_Number" />
+                <ScalarProperty Name="Owner_Name" ColumnName="Owner_Name" />
+                <ScalarProperty Name="Shop_Name" ColumnName="Shop_Name" />
+                <ScalarProperty Name="Agent_Id" ColumnName="Agent_Id" />
+                <ScalarProperty Name="Is_Refferal" ColumnName="Is_Refferal" />
+                <ScalarProperty Name="Shop_Id" ColumnName="Shop_Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="COUNTRY_CODES">
+            <EntityTypeMapping TypeName="SanjyShopDatabaseModel.COUNTRY_CODES">
+              <MappingFragment StoreEntitySet="COUNTRY_CODES">
+                <ScalarProperty Name="Country_Code" ColumnName="Country_Code" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,497 @@
+
+/*=============================================================
+    Authour URI: www.binarycart.com
+    License: Commons Attribution 3.0
+
+    http://creativecommons.org/licenses/by/3.0/
+
+    100% To use For Personal And Commercial Use.
+    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
+   
+    ========================================================  */
+/*==============================================
+    GENERAL  STYLES    
+    =============================================*/
+html,body
+{
+overflow-x:hidden;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height:30px;
+}
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    margin-left: 50px;
+    line-height: 25px;
+}
+
+
+img {
+    border: 0;
+    height: 90px;
+    width: 100px;
+    margin-left:-39px;
+}
+
+#wrapper {
+    width: 100%;
+    margin-top: 91px;
+}
+
+#page-wrapper {
+    padding: 15px 15px;
+    min-height: 600px;
+    background:#ffe73a;
+   
+}
+#page-inner {
+    width:100%;
+    margin:10px 20px 10px 0px;
+    background-color:#fff!important;
+    padding:10px;
+    min-height:1050px;
+}
+.pad-top {
+    padding-top:15px;
+}
+/*==============================================
+    MENU STYLES    
+    =============================================*/
+    .btn-warning {
+        color: #fff;
+        background-color: #ffe73a;
+        border-color: black;
+        color: black;
+        padding: 10px 37px;
+        border: 2px solid black;
+        box-shadow: 0 8px 10px rgba(0, 0, 0, 0.15);
+        border-radius: 13px;
+    }
+
+.sidebar-collapse .nav {
+	padding:0;
+    padding-top:50px;
+}
+
+.sidebar-collapse > .nav > li > a {
+	padding:15px 10px;
+    color: #214761;
+font-weight: 900;
+font-size: 16px;
+}
+.sidebar-collapse > .nav > li {
+	border-bottom:1px solid #e1e1e1;
+}
+.sidebar-collapse .nav > li > a:hover,
+.sidebar-collapse .nav > li > a:focus {
+	
+	background:#F3F3F3;
+	outline:0;
+}
+
+.navbar-side {
+	border:none;
+	background-color: #fff;
+	
+}
+.navbar-inverse {
+
+background-color: #ffe73a;
+/*border-bottom: 4px solid #ffe73a;*/
+min-height: 115px;
+border: none;
+}
+
+
+.nav > li > a > i {
+    margin-right:10px;
+}
+.logout-spn {
+    float:right;
+    color:black;
+    font-size:30px;
+    font-weight:800;
+    font-family:Reenie Beanie;
+    margin:20px;
+    margin: 10px 25px 10px 50px;
+}
+
+
+    .logout-spn a {
+        text-decoration:none;
+    }
+
+.active-link {
+    background-color:#f3f3f3;
+}
+    
+/*==============================================
+    DASHBOARD STYLES    
+    =============================================*/
+.div-square {
+    padding:5px;
+    border:3px double #e1e1e1;
+    -webkit-border-radius:8px;
+   -moz-border-radius:8px;
+    border-radius:8px;
+    margin:5px;
+
+}
+
+.div-square> a,.div-square> a:hover {
+    color:#808080;
+     text-decoration:none;
+}
+/*==============================================
+    FOOTER STYLES     
+    =============================================*/
+.footer {
+    background-color:black;
+    width:100%;
+    color:#fff;
+    padding:0px;
+    padding-left:20px;
+}
+
+
+    .footer > a, .footer>a:hover {
+       
+        color:#fff;
+    }
+
+/*==============================================
+    MEDIA QUERIES     
+    =============================================*/
+ 
+ @media(min-width:768px) {
+     #page-wrapper{
+        margin: 0 0 0 260px;
+        padding: 15px 20px;
+        min-height: 1050px;
+		
+    }
+	
+	
+    .navbar-side {
+        z-index: 1;
+        position: fixed;
+        width: 260px;
+       
+    }
+
+ 
+}
+
+
+
+/*table*/
+.table-sortable tbody tr {
+    cursor: move;
+}
+
+
+
+
+/*product_adding*/
+/*Check box*/
+/*@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");*/
+
+
+/*label{
+	position: relative;
+	cursor: pointer;
+	color: #666;
+	font-size: 20px;
+	line-height: 10px;
+}*/
+
+/*input[type="checkbox"], input[type="radio"]{
+	position: absolute;
+	right: 9000px;
+}*/
+
+/*input[type="checkbox"] + .label-text:before{
+	content: "\f096";
+	font-family: "FontAwesome";
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing:antialiased;
+	width: 1em;
+	display: inline-block;
+	margin-right: 5px;
+}
+*/
+/*input[type="checkbox"]:checked + .label-text:before{
+	content: "\f14a";
+	color: #2980b9;
+	animation: effect 250ms ease-in;
+}
+
+input[type="checkbox"]:disabled + .label-text{
+	color: #aaa;
+}
+*/
+/*input[type="checkbox"]:disabled + .label-text:before{
+	content: "\f0c8";
+	color: #ccc;
+}*/
+/************************/
+
+
+
+
+
+/**************content box*****************/
+.content_box_1
+{
+	padding:10px;
+    background-color:#f3f3f3 ;
+    border-radius: 10px;
+    line-height: 15px;
+}
+
+/*item toggle buttons*/
+
+#container {
+	margin-top: 6%;
+  }
+
+  .switch-control {
+	margin: 0 auto;
+	width: 140px;
+  }
+
+  .switch-control .innerDiv {
+	padding-bottom: 14px;
+	display: flex;
+	align-items: center;
+  }
+
+  .switch-control label {
+	font-size: 14px;
+	font-family: "Segoe UI", "GeezaPro", "DejaVu Serif", sans-serif;
+	font-weight: normal;
+	cursor: pointer;
+	user-select: none;
+  }
+
+  .btn-warning1
+  {
+    cursor: pointer;
+    color: black;
+    padding: 10px 37px;
+    margin-top: 20px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 13px;
+    border: 2px solid black;
+    background-color: #ffe52ef0;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-left: 20px;
+  }
+  .btn-warning2
+  {
+    cursor: pointer;
+    color: black;
+    margin-left: 18px;
+    padding: 10px 37px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 13px;
+    border: 2px solid black;
+    background-color: #ffe52ef0;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  /*new sub item add*/
+  .open-form, .reset-form {
+    margin-top: 50px;
+    margin-left: 42px;
+    cursor: pointer;
+    color: black;
+    padding: 10px 17px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 13px;
+    border: 2px solid black;
+    background-color: #ffe52ef0;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: .3s;
+}
+
+
+@media (max-width: 992px)
+{
+    .open-form, .reset-form {
+        margin-top: 50px;
+        margin-left: 38px;
+        cursor: pointer;
+        color: black;
+        padding: 10px 17px;
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+        border-radius: 13px;
+        border: 2px solid black;
+        background-color: #ffe52ef0;
+        text-transform: uppercase;
+        font-size: 14px;
+        transition: .3s;
+    }
+}
+
+  .form-popup,
+  .success-message {
+      display: none;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      position: fixed;
+      top: 0;
+      z-index: 9999;
+      background-color: rgba(0, 0, 0, .5);
+      transition: .5s;
+  }
+  .form-popup .form-wrapper {
+      top: 2em;
+      max-width: 700px;
+      background: white;
+      padding: 50px;
+      padding-top: 50px;
+      position: absolute;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+  }
+  .form-title {
+      margin-bottom: 20px;
+      text-transform: uppercase;
+  }
+  .close-form {
+      border-radius: 0px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: 9;
+      cursor: pointer;
+      padding: 10px 30px;
+      background-color: #ffe52ef0;
+      border: 2px solid black;
+      color: black;
+      font-size: 18px;
+      margin-top: 10px;
+      margin-right: 10px;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+      transition: .3s;
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 13px;
+  }
+  .send-form {
+      cursor: pointer;
+      padding: 10px 30px;
+      background-color: #ffe52ef0;
+      border: 2px solid black;
+      color: black;
+      font-size: 18px;
+      text-transform: uppercase;
+      transition: .3s;
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 13px;
+  }
+  .form-control:focus {
+      border-color: #83b566;
+      box-shadow: 0 0 0 0.2rem rgba(131, 181, 102, 0.25);
+  }
+  .btn:hover {
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.35);
+  }
+  .success-message {
+      text-align: center;
+  }
+  .success-message h1 {
+      color: #ffffff;
+      margin-top: 3em;
+  }
+
+
+
+  .table-sortable tbody tr {
+    cursor: move;
+}
+
+
+.offersprice
+{
+
+    margin-left: 480px;
+}
+
+@media (max-width: 992px)
+{
+.offersprice
+{
+
+    margin-left: 50px;
+}
+}
+
+
+.edit_icon
+{
+    margin-left: 15px;
+}
+
+
+/*myprofile*/
+
+
+.panel {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+
+  
+
+.navbar-inverse .navbar-toggle {
+    border-color: #333;
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 35px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: #ffe52ef0;
+    background-image: none;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+
+.btn-danger10
+{
+    margin-left: 5px;
+    color:white;
+    background-color: #ce4a46;
+}
+
+.btn-danger10:hover
+{
+    color:white;
+}

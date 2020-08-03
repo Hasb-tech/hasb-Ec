@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SanjyShopDatabaseModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AGENT_DETAILS">
+    <Key>
+      <PropertyRef Name="Agent_Id" />
+    </Key>
+    <Property Name="Agent_Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Agent_Name" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Country_Name" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="State_Name" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="City_Name" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Location_Name" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Agency_Name" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Licence_Number" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Address" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="Pincode" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Phonenumber" Type="varchar" MaxLength="50" />
+    <Property Name="Password" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="BANK_NAMES">
+    <Key>
+      <PropertyRef Name="Bank_Id" />
+    </Key>
+    <Property Name="Bank_Id" Type="int" Nullable="false" />
+    <Property Name="Bank_Name" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ID_PROOF_TYPES">
+    <Key>
+      <PropertyRef Name="Id_proof_Id" />
+    </Key>
+    <Property Name="Id_proof_Id" Type="int" Nullable="false" />
+    <Property Name="Id_proof_Type" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SANJY_SHOP_REGISTRATION">
+    <Key>
+      <PropertyRef Name="Shop_Id" />
+    </Key>
+    <Property Name="Shop_Id" Type="bigint" Nullable="false" />
+    <Property Name="Is_Refferal" Type="bit" />
+    <Property Name="Agent_Id" Type="bigint" />
+    <Property Name="Shop_Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Owner_Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Phone_Number" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="50" />
+    <Property Name="Password" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="GST_Number" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="FSSAI_Number" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Address" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="pincode" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Is_Phone_Number_Verified" Type="bit" Nullable="false" />
+    <Property Name="Shop_Type_Id" Type="int" Nullable="false" />
+    <Property Name="Bank_Account_Number" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="IFSC_Code" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Bank_Name" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="PAN_Number" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="FSSAI" Type="varchar(max)" Nullable="false" />
+    <Property Name="Id_Proof_Type_Id" Type="int" Nullable="false" />
+    <Property Name="Id_Proof" Type="varchar(max)" Nullable="false" />
+    <Property Name="PAN_Card" Type="varchar(max)" Nullable="false" />
+    <Property Name="Passbook_Bank_Statement" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SHOP_TYPES">
+    <Key>
+      <PropertyRef Name="Shop_Type_Id" />
+    </Key>
+    <Property Name="Shop_Type_Id" Type="int" Nullable="false" />
+    <Property Name="Shop_Type" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__SANJY_SHO__Agent__4CA06362">
+    <End Role="AGENT_DETAILS" Type="Self.AGENT_DETAILS" Multiplicity="0..1" />
+    <End Role="SANJY_SHOP_REGISTRATION" Type="Self.SANJY_SHOP_REGISTRATION" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AGENT_DETAILS">
+        <PropertyRef Name="Agent_Id" />
+      </Principal>
+      <Dependent Role="SANJY_SHOP_REGISTRATION">
+        <PropertyRef Name="Agent_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__SANJY_SHO__Id_Pr__4D94879B">
+    <End Role="ID_PROOF_TYPES" Type="Self.ID_PROOF_TYPES" Multiplicity="1" />
+    <End Role="SANJY_SHOP_REGISTRATION" Type="Self.SANJY_SHOP_REGISTRATION" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ID_PROOF_TYPES">
+        <PropertyRef Name="Id_proof_Id" />
+      </Principal>
+      <Dependent Role="SANJY_SHOP_REGISTRATION">
+        <PropertyRef Name="Id_Proof_Type_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__SANJY_SHO__Shop___4E88ABD4">
+    <End Role="SHOP_TYPES" Type="Self.SHOP_TYPES" Multiplicity="1" />
+    <End Role="SANJY_SHOP_REGISTRATION" Type="Self.SANJY_SHOP_REGISTRATION" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SHOP_TYPES">
+        <PropertyRef Name="Shop_Type_Id" />
+      </Principal>
+      <Dependent Role="SANJY_SHOP_REGISTRATION">
+        <PropertyRef Name="Shop_Type_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SanjyShopDatabaseModelStoreContainer">
+    <EntitySet Name="AGENT_DETAILS" EntityType="Self.AGENT_DETAILS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="BANK_NAMES" EntityType="Self.BANK_NAMES" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ID_PROOF_TYPES" EntityType="Self.ID_PROOF_TYPES" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SANJY_SHOP_REGISTRATION" EntityType="Self.SANJY_SHOP_REGISTRATION" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SHOP_TYPES" EntityType="Self.SHOP_TYPES" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__SANJY_SHO__Agent__4CA06362" Association="Self.FK__SANJY_SHO__Agent__4CA06362">
+      <End Role="AGENT_DETAILS" EntitySet="AGENT_DETAILS" />
+      <End Role="SANJY_SHOP_REGISTRATION" EntitySet="SANJY_SHOP_REGISTRATION" />
+    </AssociationSet>
+    <AssociationSet Name="FK__SANJY_SHO__Id_Pr__4D94879B" Association="Self.FK__SANJY_SHO__Id_Pr__4D94879B">
+      <End Role="ID_PROOF_TYPES" EntitySet="ID_PROOF_TYPES" />
+      <End Role="SANJY_SHOP_REGISTRATION" EntitySet="SANJY_SHOP_REGISTRATION" />
+    </AssociationSet>
+    <AssociationSet Name="FK__SANJY_SHO__Shop___4E88ABD4" Association="Self.FK__SANJY_SHO__Shop___4E88ABD4">
+      <End Role="SHOP_TYPES" EntitySet="SHOP_TYPES" />
+      <End Role="SANJY_SHOP_REGISTRATION" EntitySet="SANJY_SHOP_REGISTRATION" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

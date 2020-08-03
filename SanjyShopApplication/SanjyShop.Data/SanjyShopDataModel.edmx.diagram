@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0b8a067ae22d4a1caf57d6003647fd44" Name="Diagram1">
+        <EntityTypeShape EntityType="SanjyShopDatabaseModel.AGENT_DETAILS" Width="1.5" PointX="0.75" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SanjyShopDatabaseModel.BANK_NAMES" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SanjyShopDatabaseModel.ID_PROOF_TYPES" Width="1.5" PointX="0.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SanjyShopDatabaseModel.SHOP_TYPES" Width="1.5" PointX="0.75" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SanjyShopDatabaseModel.SANJY_SHOP_REGISTRATION" Width="2.5" PointX="3" PointY="4.375" />
+        <AssociationConnector Association="SanjyShopDatabaseModel.FK__SANJY_SHO__Agent__0B91BA14" />
+        <AssociationConnector Association="SanjyShopDatabaseModel.FK__SANJY_SHO__Id_Pr__0C85DE4D" />
+        <AssociationConnector Association="SanjyShopDatabaseModel.FK__SANJY_SHO__Shop___0D7A0286" />
+        <EntityTypeShape EntityType="SanjyShopDatabaseModel.COUNTRY_CODES" Width="1.5" PointX="0.75" PointY="12.875" />
+        <AssociationConnector Association="SanjyShopDatabaseModel.FK__SANJY_SHO__Phone__0E6E26BF" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

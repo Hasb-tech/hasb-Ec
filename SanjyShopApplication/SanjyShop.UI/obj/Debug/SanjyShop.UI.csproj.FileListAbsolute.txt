@@ -1,0 +1,340 @@
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\SanjyShop.UI.dll.config
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\SanjyShop.UI.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\SanjyShop.UI.pdb
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\roslyn\csc.exe
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\roslyn\csc.exe.config
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\roslyn\csc.rsp
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\roslyn\csi.exe
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\roslyn\csi.exe.config
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\roslyn\csi.rsp
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\roslyn\System.AppContext.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\roslyn\System.Collections.Immutable.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\roslyn\System.Console.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\roslyn\System.Globalization.Calendars.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\roslyn\System.IO.Compression.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\roslyn\System.IO.FileSystem.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\roslyn\System.Net.Http.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\roslyn\System.Net.Sockets.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\roslyn\System.Reflection.Metadata.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\roslyn\System.ValueTuple.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\roslyn\System.Xml.XPath.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\roslyn\vbc.exe
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\roslyn\vbc.exe.config
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\roslyn\vbc.rsp
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\roslyn\VBCSCompiler.exe
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\roslyn\VBCSCompiler.exe.config
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\EntityFramework.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\EntityFramework.SqlServer.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\Microsoft.Web.Infrastructure.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\SanjyShop.Business.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\SanjyShops.Business_Models.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\System.Web.Helpers.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\System.Web.Mvc.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\System.Web.Razor.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\System.Web.Webpages.Deployment.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\System.Web.Webpages.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\System.Web.Webpages.Razor.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\Unity.Abstractions.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\Unity.Container.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\Unity.Mvc5.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\SanjyShop.Data.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\SanjyShop.Business.pdb
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\SanjyShop.Business.dll.config
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\SanjyShops.Business_Models.pdb
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\SanjyShops.Business_Models.dll.config
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\EntityFramework.xml
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\EntityFramework.SqlServer.xml
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\Unity.Abstractions.pdb
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\Unity.Container.pdb
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\System.Web.Razor.xml
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\System.Web.Webpages.xml
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\System.Web.Webpages.Deployment.xml
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\System.Web.Webpages.Razor.xml
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\System.Web.Helpers.xml
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\System.Web.Mvc.xml
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\SanjyShop.Data.pdb
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\SanjyShop.Data.dll.config
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\obj\Debug\SanjyShop.UI.csprojAssemblyReference.cache
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\obj\Debug\SanjyShop.UI.csproj.CoreCompileInputs.cache
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\obj\Debug\SanjyShop.UI.csproj.CopyComplete
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\obj\Debug\SanjyShop.UI.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\obj\Debug\SanjyShop.UI.pdb
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\Microsoft.Owin.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\Microsoft.Owin.Security.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\Owin.dll
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\Microsoft.Owin.xml
+D:\Work\SanjyShop\SanjyShopApplication\SanjyShop.UI\bin\Microsoft.Owin.Security.xml
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\SanjyShop.UI.dll.config
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\SanjyShop.UI.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\SanjyShop.UI.pdb
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\roslyn\csc.exe
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\roslyn\csc.exe.config
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\roslyn\csc.rsp
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\roslyn\csi.exe
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\roslyn\csi.exe.config
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\roslyn\csi.rsp
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\roslyn\Microsoft.Managed.Core.targets
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\roslyn\System.AppContext.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\roslyn\System.Collections.Immutable.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\roslyn\System.Console.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\roslyn\System.Globalization.Calendars.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\roslyn\System.IO.Compression.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\roslyn\System.IO.FileSystem.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\roslyn\System.Net.Http.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\roslyn\System.Net.Sockets.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\roslyn\System.Reflection.Metadata.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\roslyn\System.ValueTuple.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\roslyn\System.Xml.XmlDocument.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\roslyn\System.Xml.XPath.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\roslyn\vbc.exe
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\roslyn\vbc.exe.config
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\roslyn\vbc.rsp
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\roslyn\VBCSCompiler.exe
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\roslyn\VBCSCompiler.exe.config
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\EntityFramework.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\EntityFramework.SqlServer.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\Microsoft.Owin.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\Microsoft.Owin.Security.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\Microsoft.Web.Infrastructure.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\Newtonsoft.Json.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\Owin.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\SanjyShop.Business.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\SanjyShops.Business_Models.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\System.Runtime.CompilerServices.Unsafe.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\System.Web.Helpers.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\System.Web.Mvc.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\System.Web.Razor.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\System.Web.Webpages.Deployment.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\System.Web.Webpages.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\System.Web.Webpages.Razor.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\Unity.Abstractions.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\Unity.Container.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\Unity.Mvc5.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\SanjyShop.Data.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\SanjyShop.Business.pdb
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\SanjyShop.Business.dll.config
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\SanjyShops.Business_Models.pdb
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\SanjyShops.Business_Models.dll.config
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\EntityFramework.xml
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\EntityFramework.SqlServer.xml
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\Microsoft.Owin.xml
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\Microsoft.Owin.Security.xml
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\Newtonsoft.Json.xml
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\System.Runtime.CompilerServices.Unsafe.xml
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\Unity.Abstractions.pdb
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\Unity.Container.pdb
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\System.Web.Razor.xml
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\System.Web.Webpages.xml
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\System.Web.Webpages.Deployment.xml
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\System.Web.Webpages.Razor.xml
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\System.Web.Helpers.xml
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\System.Web.Mvc.xml
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\SanjyShop.Data.pdb
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\SanjyShop.Data.dll.config
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\obj\Debug\SanjyShop.UI.csprojAssemblyReference.cache
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\obj\Debug\SanjyShop.UI.csproj.CoreCompileInputs.cache
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\obj\Debug\SanjyShop.UI.csproj.CopyComplete
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\obj\Debug\SanjyShop.UI.dll
+E:\By lavish\sanjy\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\obj\Debug\SanjyShop.UI.pdb
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\SanjyShop.UI.dll.config
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\SanjyShop.UI.dll
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\SanjyShop.UI.pdb
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\EntityFramework.dll
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\EntityFramework.SqlServer.dll
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\Microsoft.Owin.dll
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\Microsoft.Owin.Security.dll
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\Microsoft.Web.Infrastructure.dll
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\Newtonsoft.Json.dll
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\Owin.dll
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\SanjyShop.Business.dll
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\SanjyShops.Business_Models.dll
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\System.Web.Helpers.dll
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\System.Web.Mvc.dll
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\System.Web.Razor.dll
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\System.Web.Webpages.Deployment.dll
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\System.Web.Webpages.dll
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\System.Web.Webpages.Razor.dll
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\Unity.Abstractions.dll
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\Unity.Container.dll
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\Unity.Mvc5.dll
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\SanjyShop.Data.dll
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\SanjyShop.Business.pdb
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\SanjyShop.Business.dll.config
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\SanjyShops.Business_Models.pdb
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\SanjyShops.Business_Models.dll.config
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\EntityFramework.xml
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\EntityFramework.SqlServer.xml
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\Microsoft.Owin.xml
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\Microsoft.Owin.Security.xml
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\Newtonsoft.Json.xml
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\Unity.Abstractions.pdb
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\Unity.Container.pdb
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\System.Web.Razor.xml
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\System.Web.Webpages.xml
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\System.Web.Webpages.Deployment.xml
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\System.Web.Webpages.Razor.xml
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\System.Web.Helpers.xml
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\System.Web.Mvc.xml
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\SanjyShop.Data.pdb
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\SanjyShop.Data.dll.config
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\obj\Debug\SanjyShop.UI.csprojAssemblyReference.cache
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\obj\Debug\SanjyShop.UI.csproj.CoreCompileInputs.cache
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\obj\Debug\SanjyShop.UI.csproj.CopyComplete
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\obj\Debug\SanjyShop.UI.dll
+D:\Work\SanjyShop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\obj\Debug\SanjyShop.UI.pdb
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\obj\Debug\SanjyShop.UI.csprojAssemblyReference.cache
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\obj\Debug\SanjyShop.UI.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\SanjyShop.UI.dll.config
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\SanjyShop.UI.dll
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\SanjyShop.UI.pdb
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\EntityFramework.dll
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\EntityFramework.SqlServer.dll
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\Microsoft.Owin.dll
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\Microsoft.Owin.Security.dll
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\Newtonsoft.Json.dll
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\Owin.dll
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\SanjyShop.Business.dll
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\SanjyShops.Business_Models.dll
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\System.Web.Helpers.dll
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\System.Web.Mvc.dll
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\System.Web.Razor.dll
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\System.Web.Webpages.Deployment.dll
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\System.Web.Webpages.dll
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\System.Web.Webpages.Razor.dll
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\Unity.Abstractions.dll
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\Unity.Container.dll
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\Unity.Mvc5.dll
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\SanjyShop.Data.dll
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\SanjyShop.Business.pdb
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\SanjyShop.Business.dll.config
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\SanjyShops.Business_Models.pdb
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\SanjyShops.Business_Models.dll.config
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\EntityFramework.xml
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\EntityFramework.SqlServer.xml
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\Microsoft.Owin.xml
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\Microsoft.Owin.Security.xml
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\Newtonsoft.Json.xml
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\Unity.Abstractions.pdb
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\Unity.Container.pdb
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\System.Web.Razor.xml
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\System.Web.Webpages.xml
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\System.Web.Webpages.Deployment.xml
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\System.Web.Webpages.Razor.xml
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\System.Web.Helpers.xml
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\System.Web.Mvc.xml
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\SanjyShop.Data.pdb
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\bin\SanjyShop.Data.dll.config
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\obj\Debug\SanjyShop.UI.csproj.CopyComplete
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\obj\Debug\SanjyShop.UI.dll
+C:\Users\user1\Desktop\integrated\SanjyShopApplication\SanjyShopApplication\SanjyShop.UI\obj\Debug\SanjyShop.UI.pdb
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.UI\bin\SanjyShop.UI.dll.config
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.UI\bin\SanjyShop.UI.dll
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.UI\bin\SanjyShop.UI.pdb
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.UI\bin\EntityFramework.dll
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.UI\bin\EntityFramework.SqlServer.dll
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.UI\bin\Microsoft.Owin.dll
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.UI\bin\Microsoft.Owin.Security.dll
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.UI\bin\Microsoft.Web.Infrastructure.dll
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.UI\bin\Newtonsoft.Json.dll
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.UI\bin\Owin.dll
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.UI\bin\SanjyShop.Business.dll
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.UI\bin\SanjyShops.Business_Models.dll
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.UI\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.UI\bin\System.Web.Helpers.dll
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.UI\bin\System.Web.Mvc.dll
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.UI\bin\System.Web.Razor.dll
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.UI\bin\System.Web.Webpages.Deployment.dll
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.UI\bin\System.Web.Webpages.dll
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.UI\bin\System.Web.Webpages.Razor.dll
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.UI\bin\Unity.Abstractions.dll
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.UI\bin\Unity.Container.dll
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.UI\bin\Unity.Mvc5.dll
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.UI\bin\SanjyShop.Data.dll
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.UI\bin\SanjyShop.Business.pdb
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.UI\bin\SanjyShop.Business.dll.config
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.UI\bin\SanjyShops.Business_Models.pdb
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.UI\bin\SanjyShops.Business_Models.dll.config
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.UI\bin\EntityFramework.xml
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.UI\bin\EntityFramework.SqlServer.xml
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.UI\bin\Microsoft.Owin.xml
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.UI\bin\Microsoft.Owin.Security.xml
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.UI\bin\Newtonsoft.Json.xml
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.UI\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.UI\bin\Unity.Abstractions.pdb
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.UI\bin\Unity.Container.pdb
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.UI\bin\System.Web.Razor.xml
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.UI\bin\System.Web.Webpages.xml
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.UI\bin\System.Web.Webpages.Deployment.xml
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.UI\bin\System.Web.Webpages.Razor.xml
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.UI\bin\System.Web.Helpers.xml
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.UI\bin\System.Web.Mvc.xml
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.UI\bin\SanjyShop.Data.pdb
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.UI\bin\SanjyShop.Data.dll.config
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.UI\obj\Debug\SanjyShop.UI.csprojAssemblyReference.cache
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.UI\obj\Debug\SanjyShop.UI.csproj.CoreCompileInputs.cache
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.UI\obj\Debug\SanjyShop.UI.csproj.CopyComplete
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.UI\obj\Debug\SanjyShop.UI.dll
+D:\Vishnu\Gepack\1\SanjyShopApplication 1.0.3\SanjyShop.UI\obj\Debug\SanjyShop.UI.pdb

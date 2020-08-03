@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SanjyShopDatabaseModelStoreContainer" CdmEntityContainer="SanjyShopDatabase">
+    <EntitySetMapping Name="AGENT_DETAILS">
+      <EntityTypeMapping TypeName="SanjyShopDatabaseModel.AGENT_DETAILS">
+        <MappingFragment StoreEntitySet="AGENT_DETAILS">
+          <ScalarProperty Name="Agent_Id" ColumnName="Agent_Id" />
+          <ScalarProperty Name="Agent_Name" ColumnName="Agent_Name" />
+          <ScalarProperty Name="Country_Name" ColumnName="Country_Name" />
+          <ScalarProperty Name="State_Name" ColumnName="State_Name" />
+          <ScalarProperty Name="City_Name" ColumnName="City_Name" />
+          <ScalarProperty Name="Location_Name" ColumnName="Location_Name" />
+          <ScalarProperty Name="Agency_Name" ColumnName="Agency_Name" />
+          <ScalarProperty Name="Licence_Number" ColumnName="Licence_Number" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Pincode" ColumnName="Pincode" />
+          <ScalarProperty Name="Phonenumber" ColumnName="Phonenumber" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BANK_NAMES">
+      <EntityTypeMapping TypeName="SanjyShopDatabaseModel.BANK_NAMES">
+        <MappingFragment StoreEntitySet="BANK_NAMES">
+          <ScalarProperty Name="Bank_Id" ColumnName="Bank_Id" />
+          <ScalarProperty Name="Bank_Name" ColumnName="Bank_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ID_PROOF_TYPES">
+      <EntityTypeMapping TypeName="SanjyShopDatabaseModel.ID_PROOF_TYPES">
+        <MappingFragment StoreEntitySet="ID_PROOF_TYPES">
+          <ScalarProperty Name="Id_proof_Id" ColumnName="Id_proof_Id" />
+          <ScalarProperty Name="Id_proof_Type" ColumnName="Id_proof_Type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SHOP_TYPES">
+      <EntityTypeMapping TypeName="SanjyShopDatabaseModel.SHOP_TYPES">
+        <MappingFragment StoreEntitySet="SHOP_TYPES">
+          <ScalarProperty Name="Shop_Type_Id" ColumnName="Shop_Type_Id" />
+          <ScalarProperty Name="Shop_Type" ColumnName="Shop_Type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SANJY_SHOP_REGISTRATION">
+      <EntityTypeMapping TypeName="SanjyShopDatabaseModel.SANJY_SHOP_REGISTRATION">
+        <MappingFragment StoreEntitySet="SANJY_SHOP_REGISTRATION">
+          <ScalarProperty Name="Phone_Number_Country_Code_Id" ColumnName="Phone_Number_Country_Code_Id" />
+          <ScalarProperty Name="Passbook_Bank_Statement" ColumnName="Passbook_Bank_Statement" />
+          <ScalarProperty Name="PAN_Card" ColumnName="PAN_Card" />
+          <ScalarProperty Name="Id_Proof_Back" ColumnName="Id_Proof_Back" />
+          <ScalarProperty Name="Id_Proof_Front" ColumnName="Id_Proof_Front" />
+          <ScalarProperty Name="Id_Proof_Type_Id" ColumnName="Id_Proof_Type_Id" />
+          <ScalarProperty Name="FSSAI" ColumnName="FSSAI" />
+          <ScalarProperty Name="PAN_Number" ColumnName="PAN_Number" />
+          <ScalarProperty Name="Bank_Name" ColumnName="Bank_Name" />
+          <ScalarProperty Name="IFSC_Code" ColumnName="IFSC_Code" />
+          <ScalarProperty Name="Bank_Account_Number" ColumnName="Bank_Account_Number" />
+          <ScalarProperty Name="Shop_Type_Id" ColumnName="Shop_Type_Id" />
+          <ScalarProperty Name="Is_Phone_Number_Verified" ColumnName="Is_Phone_Number_Verified" />
+          <ScalarProperty Name="pincode" ColumnName="pincode" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="FSSAI_Number" ColumnName="FSSAI_Number" />
+          <ScalarProperty Name="GST_Number" ColumnName="GST_Number" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Phone_Number" ColumnName="Phone_Number" />
+          <ScalarProperty Name="Owner_Name" ColumnName="Owner_Name" />
+          <ScalarProperty Name="Shop_Name" ColumnName="Shop_Name" />
+          <ScalarProperty Name="Agent_Id" ColumnName="Agent_Id" />
+          <ScalarProperty Name="Is_Refferal" ColumnName="Is_Refferal" />
+          <ScalarProperty Name="Shop_Id" ColumnName="Shop_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="COUNTRY_CODES">
+      <EntityTypeMapping TypeName="SanjyShopDatabaseModel.COUNTRY_CODES">
+        <MappingFragment StoreEntitySet="COUNTRY_CODES">
+          <ScalarProperty Name="Country_Code" ColumnName="Country_Code" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
